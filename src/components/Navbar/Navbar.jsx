@@ -14,7 +14,7 @@ export const Navbar = () => {
             <motion.span 
             initial={{opacity:0, scale:0.5}} 
             animate={{opacity:1, scale:1}}
-            transition={{duration:0.5}}>Ibar Agustin</motion.span>
+            transition={{duration:0.5}}>Portfolio </motion.span>
             <div className="social">
                 <a href="#">
                 <Twitter/>

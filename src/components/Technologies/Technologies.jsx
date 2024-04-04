@@ -21,26 +21,26 @@ const Technologies = () => {
           </div>
       </motion.div>
       <motion.div className="listContainer">
-        <div className="box">
+        <motion.div className="box" whileHover={{ backgroundColor: "lightgray", color: "black"}}>
           <h2>Frontend</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit totam molestiae voluptatem natus! Alias cupiditate eligendi accusamus officia doloribus laudantium, labore, ad soluta expedita vitae iste, unde ipsum aspernatur pariatur!</p>
           <button>Go</button>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
           <h2>Backend</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit totam molestiae voluptatem natus! Alias cupiditate eligendi accusamus officia doloribus laudantium, labore, ad soluta expedita vitae iste, unde ipsum aspernatur pariatur!</p>
           <button>Go</button>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
           <h2>Design</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit totam molestiae voluptatem natus! Alias cupiditate eligendi accusamus officia doloribus laudantium, labore, ad soluta expedita vitae iste, unde ipsum aspernatur pariatur!</p>
           <button>Go</button>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
           <h2>Branding</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit totam molestiae voluptatem natus! Alias cupiditate eligendi accusamus officia doloribus laudantium, labore, ad soluta expedita vitae iste, unde ipsum aspernatur pariatur!</p>
           <button>Go</button>
-        </div>
+        </motion.div>
       </motion.div>
     </motion.div>
   )

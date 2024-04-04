@@ -1,8 +1,9 @@
 import { Links } from './links/Links';
 import './sidebar.scss';
 import { motion } from 'framer-motion';
-import { ToggleButton } from './toggleButton/ToggleButton';
+
 import { useState } from 'react';
+import ToggleButton from './toggleButton/ToggleButton';
 
 
 export const Sidebar = () => {

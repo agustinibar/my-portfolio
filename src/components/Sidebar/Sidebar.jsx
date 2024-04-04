@@ -1,4 +1,4 @@
-import { Links } from './links/Links';
+import  Links  from './links/Links';
 import './sidebar.scss';
 import { motion } from 'framer-motion';
 
@@ -30,7 +30,7 @@ export const Sidebar = () => {
 
   return (
     <motion.div className='sidebar' animate={open ? "open" : "closed"}>
-        <motion.div className="bg" variants={variants }>
+        <motion.div className="bg" variants={variants}>
             <Links/>
         </motion.div>
         <ToggleButton setOpen={setOpen}/>

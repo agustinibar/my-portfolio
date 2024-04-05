@@ -32,7 +32,7 @@ const itemVariants = {
     "Services",
     "Portfolio",
     "Contact",
-    "About Me",
+    // "About Me",
   ];
 
 

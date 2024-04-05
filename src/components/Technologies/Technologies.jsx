@@ -61,12 +61,12 @@ const Technologies = () => {
           <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
-          <h2>Design</h2>
+          <h2>Agile Methodology</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit totam molestiae voluptatem natus! Alias cupiditate eligendi accusamus officia doloribus laudantium, labore, ad soluta expedita vitae iste, unde ipsum aspernatur pariatur!</p>
           <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
-          <h2>Branding</h2>
+          <h2>AI Development</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit totam molestiae voluptatem natus! Alias cupiditate eligendi accusamus officia doloribus laudantium, labore, ad soluta expedita vitae iste, unde ipsum aspernatur pariatur!</p>
           <button>Go</button>
         </motion.div>

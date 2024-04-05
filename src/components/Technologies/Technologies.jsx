@@ -46,7 +46,7 @@ const Technologies = () => {
           </div>
           <div className="tittle">  
             <h1><motion.b whileHover={{color:"orange"}}>Path In</motion.b> Development</h1>
-            <button>WHAT CAN I DO?</button>
+            <button>WHAT I DID?</button>
           </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>

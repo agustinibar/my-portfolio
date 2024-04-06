@@ -16,14 +16,16 @@ export const Navbar = () => {
             animate={{opacity:1, scale:1}}
             transition={{duration:0.5}}></motion.span>
             <div className="social">
-                <a href="#">
+                <a href="https://twitter.com/IbarAgustinIgna">
                 <Twitter/>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/agustin-ibar-59b123215/">
                 <LinkedIn/>
                 </a>
                 <a href="#">
-                <WhatsApp/>
+                <WhatsApp onClick={() => {
+                window.open('https://wa.me/5493487522074', '_blank');
+              }}/>
                 </a>
             </div>
         </div>

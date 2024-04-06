@@ -42,6 +42,19 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+
+  const handleClickContact = () => {
+    // Scroll to the contact section
+    const contactSection = document.getElementById('Contact');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const handleClickPortfolio = () => {
+    // Scroll to the contact section
+    const contactSection = document.getElementById('Portfolio');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className='hero'>
       <div className="wrapper">
@@ -49,8 +62,8 @@ const Hero = () => {
         <motion.h2 variants={textVariants}>AGUSTIN IBAR</motion.h2>
         <motion.h1 variants={textVariants}>Fullstack Developer</motion.h1>
         <motion.div variants={textVariants} className="buttons">
-          <motion.button variants={textVariants}>See my lastest works</motion.button>
-          <motion.button variants={textVariants}>Contact Me</motion.button>
+          <motion.button variants={textVariants} onClick={handleClickPortfolio}>See my lastest works</motion.button>
+          <motion.button variants={textVariants} onClick={handleClickContact}>Contact Me</motion.button>
         </motion.div>
         <motion.img variants={textVariants} animate="scrollButton"src="/scroll.png" alt="" />
       </motion.div>

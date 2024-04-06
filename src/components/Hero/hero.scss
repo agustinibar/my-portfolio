@@ -28,6 +28,8 @@
             }
 
             .buttons{
+                position: relative; // Añade esta línea
+                z-index: 2; // Añade esta línea
                 button{
                     padding: 20px;
                     border: 1px solid white;

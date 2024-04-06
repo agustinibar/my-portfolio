@@ -17,7 +17,7 @@ function App() {
         <Navbar/>
         <Hero/>
       </section>
-      <section id="Services">
+      <section id="Technologies">
         <Parallax type="Services"/>
         <Technologies/>
       </section>

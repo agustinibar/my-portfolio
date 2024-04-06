@@ -25,6 +25,11 @@ const Technologies = () => {
     const contactSection = document.getElementById('Portfolio');
     contactSection.scrollIntoView({ behavior: 'smooth' });
   };
+
+  const handleClickContact = () => {
+    const contactSection = document.getElementById('Contact');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  };
   
   const ref = useRef()
 
@@ -58,22 +63,22 @@ const Technologies = () => {
         <motion.div className="box" whileHover={{ backgroundColor: "lightgray", color: "black"}}>
           <h2>Main Stack</h2>
           <p>Proficient in web development with PERN-MERN stack. Led successful projects, demonstrating expertise in building robust and scalable web applications</p>
-          <button>Go</button>
+          <button onClick={handleClickContact}>Let's talk!</button>
         </motion.div>
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
           <h2>Backend:</h2>
           <p>Expert in backend development with Express.js. Proficient in Django, FastAPI, and Flask. Specialized in RESTful APIs and management of SQL, NoSQL, and realtime databases.</p>
-          <button>Go</button>
+          <button onClick={handleClickContact}>Let's talk!</button>
         </motion.div>
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
           <h2>Machine Learning</h2>
           <p>Exploring Machine Learning and Data Science, especially with TensorFlow. Focusing on data analysis and predictive modeling to enhance skills in this dynamic domain.</p>
-          <button>Go</button>
+          <button onClick={handleClickContact}>Let's talk!</button>
         </motion.div>
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black"}}>
           <h2>Methodologies and Tools:</h2>
           <p>Skilled in SCRUM methodology and adept at using tools like Notion, Figma, and Corel. A strong team player focused on organization and planning, contributing effectively to agile projects.  </p>
-          <button>Go</button>
+          <button onClick={handleClickContact}>Let's talk!</button>
         </motion.div>
       </motion.div>
     </motion.div>

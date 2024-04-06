@@ -1,5 +1,10 @@
 import { useRef } from 'react';
-import './portfolio.scss'
+import './portfolio.scss';
+
+import dreamlodgeImage from '../../../public/dreamlodge1.png';
+import xapportImage from '../../../public/logo.png';
+import amueblaImage from '../../../public/amuebla.png';
+import foodieImage from '../../../public/foodie.png';
 
 import { motion, useScroll, useSpring, useTransform  } from 'framer-motion';
 
@@ -7,25 +12,25 @@ const items = [
   {
     id:1,
     tittle: "Dream Lodge",
-    img: "https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus veritatis ducimus, sapiente iusto eveniet fuga eligendi laudantium excepturi. Doloribus autem cumque dolorum fuga corporis asperiores molestias. Repellendus, architecto dolorem."
+    img: dreamlodgeImage,
+    desc: "An innovative React project leveraging Firebase technologies for luxury accommodation rentals in the US. With real-time database, storage, and user authentication, it offers a seamless booking experience. Responsive design ensures usability across devices."
   },
   {
     id:2,
     tittle: "Xapport",
-    img: "https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+    img: xapportImage,
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus veritatis ducimus, sapiente iusto eveniet fuga eligendi laudantium excepturi. Doloribus autem cumque dolorum fuga corporis asperiores molestias. Repellendus, architecto dolorem."
   },
   {
     id:3,
     tittle: "Amuebla",
-    img: "https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+    img: amueblaImage,
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus veritatis ducimus, sapiente iusto eveniet fuga eligendi laudantium excepturi. Doloribus autem cumque dolorum fuga corporis asperiores molestias. Repellendus, architecto dolorem."
   },
   {
     id:3,
-    tittle: "Run Up",
-    img: "https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+    tittle: "Foodie Portfolio",
+    img: foodieImage,
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus veritatis ducimus, sapiente iusto eveniet fuga eligendi laudantium excepturi. Doloribus autem cumque dolorum fuga corporis asperiores molestias. Repellendus, architecto dolorem."
   }
 ];

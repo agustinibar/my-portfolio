@@ -44,13 +44,11 @@ const sliderVariants = {
 const Hero = () => {
 
   const handleClickContact = () => {
-    // Scroll to the contact section
     const contactSection = document.getElementById('Contact');
     contactSection.scrollIntoView({ behavior: 'smooth' });
   };
 
   const handleClickPortfolio = () => {
-    // Scroll to the contact section
     const contactSection = document.getElementById('Portfolio');
     contactSection.scrollIntoView({ behavior: 'smooth' });
   };

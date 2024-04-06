@@ -19,13 +19,13 @@ const items = [
     id:2,
     tittle: "Xapport",
     img: xapportImage,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus veritatis ducimus, sapiente iusto eveniet fuga eligendi laudantium excepturi. Doloribus autem cumque dolorum fuga corporis asperiores molestias. Repellendus, architecto dolorem."
+    desc: " A dynamic MERN stack application integrating Firebase database to supplement MongoAtlas. Inspired by Twitter, it features user authentication, post creation and viewing, advertising space, friend management, self-help group creation, user chat, and user profile views. Currently in development phase."
   },
   {
     id:3,
     tittle: "Amuebla",
     img: amueblaImage,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus veritatis ducimus, sapiente iusto eveniet fuga eligendi laudantium excepturi. Doloribus autem cumque dolorum fuga corporis asperiores molestias. Repellendus, architecto dolorem."
+    desc: "Amuebla is an ecommerce site built using React and Firebase. It features user authentication, product browsing, detailed product pages, and a cart with MercadoPago integration. An admin dashboard allows for product management, user security, and order tracking. The platform is still in development."
   },
   {
     id:3,

@@ -26,12 +26,12 @@ function App() {
         <section id="Portfolio">
           <Parallax type="Portfolio"/>
         </section>
-      {/* <section>
+      <section>
         <Portfolio/>
-      </section> */}
-      {/* <section id="Contact">
+      </section>
+      <section id="Contact">
         <Contact/>
-      </section> */}
+      </section>
   {/* <section>About me</section> */}
     </div>
   )

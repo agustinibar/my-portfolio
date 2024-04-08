@@ -19,16 +19,19 @@ function App() {
       </section>
       <section id="Technologies">
         <Parallax type="Services"/>
+      </section>
+      <section>
         <Technologies/>
       </section>
-      <section></section>
-      <section id="Portfolio">
-        <Parallax type="Portfolio"/>
-      </section>
+        <section id="Portfolio">
+          <Parallax type="Portfolio"/>
+        </section>
+      {/* <section>
         <Portfolio/>
-      <section id="Contact">
+      </section> */}
+      {/* <section id="Contact">
         <Contact/>
-      </section>
+      </section> */}
   {/* <section>About me</section> */}
     </div>
   )

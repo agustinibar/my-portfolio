@@ -26,9 +26,7 @@ function App() {
         <section id="Portfolio">
           <Parallax type="Portfolio"/>
         </section>
-      <section>
         <Portfolio/>
-      </section>
       <section id="Contact">
         <Contact/>
       </section>

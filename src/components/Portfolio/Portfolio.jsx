@@ -3,8 +3,8 @@ import './portfolio.scss';
 
 import dreamlodgeImage from '../../../public/dreamlodge1.png';
 import xapportImage from '../../../public/logo.png';
-import amueblaImage from '../../../public/amuebla.png';
-import foodieImage from '../../../public/foodie.png';
+import arbaImage from '../../../public/arba.jpeg'
+import lumenbyteImage from '../../../public/lumenbyte.jpg';
 
 import { motion, useScroll, useSpring, useTransform  } from 'framer-motion';
 
@@ -25,17 +25,17 @@ const items = [
   },
   {
     id:3,
-    tittle: "Amuebla",
-    img: amueblaImage,
-    desc: "Amuebla is an ecommerce site built using React and Firebase. It features user authentication, product browsing, detailed product pages, and a cart with MercadoPago integration. An admin dashboard allows for product management, user security, and order tracking. The platform is still in development.",
-    demo:"https://amuebla-6a3f2.web.app/",
+    tittle: "ARBA",
+    img: arbaImage,
+    desc: "At ARBA, I modernize tax systems by migrating Adabas to Java, SQL, and Oracle. I optimize queries, enhance performance by 40%, and reduce legacy reliance. Using Spring Boot, I unify data sources, improve tax deduction processing, and ensure system stability. My work enhances efficiency in critical financial operations.",
+    demo:"https://web.arba.gov.ar/",
   },
   {
     id:3,
-    tittle: "Foodie Portfolio",
-    img: foodieImage,
-    desc: "Foodie is a web development services company portfolio created with Tailwind and Framer Motion for component animation. It features language toggling between Spanish and English and includes a newsletter section. This simple single-page application (SPA) aims to showcase the best of branding and web development services.",
-    demo:"https://foodiesitelab.com/"
+    tittle: "Lumenbyte",
+    img: lumenbyteImage,
+    desc: "At Lumenbyte, I develop AI and Blockchain projects for e-commerce and tourism, using React, Node.js, and PostgreSQL. I lead a team of 3, applying agile methodologies. Key projects include MatchOffer, an AI-driven mobile app built with Expo and Firebase, connecting users with personalized offers.",
+    demo:"https://www.lumenbytech.com/"
   }
 ];
 

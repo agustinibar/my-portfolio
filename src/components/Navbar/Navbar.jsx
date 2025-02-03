@@ -24,7 +24,7 @@ export const Navbar = () => {
                 </a>
                 <a href="#">
                 <WhatsApp onClick={() => {
-                window.open('https://wa.me/5493487522074', '_blank');
+                window.open('https://wa.me/5493487708257', '_blank');
               }}/>
                 </a>
             </div>

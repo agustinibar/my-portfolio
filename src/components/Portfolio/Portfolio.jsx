@@ -3,8 +3,8 @@ import './portfolio.scss';
 
 import dreamlodgeImage from '../../../public/dreamlodge1.png';
 import xapportImage from '../../../public/logo.png';
-import arbaImage from '../../../public/arba.jpeg'
-import lumenbyteImage from '../../../public/lumenbyte.jpg';
+import arbaImage from '../../../public/arba.jpg'
+import lumenbyteImage from '../../../public/lumenbyte.png';
 
 import { motion, useScroll, useSpring, useTransform  } from 'framer-motion';
 
